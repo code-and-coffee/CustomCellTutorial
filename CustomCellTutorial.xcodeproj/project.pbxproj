@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010E09F415C222F000671511 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010E09F315C222F000671511 /* TableViewController.m */; };
+		011AEC3615C192A200F7F45A /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 011AEC3515C192A200F7F45A /* CustomCell.m */; };
 		016738D015C014DA00F6861E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016738CF15C014DA00F6861E /* UIKit.framework */; };
 		016738D215C014DA00F6861E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016738D115C014DA00F6861E /* Foundation.framework */; };
 		016738D415C014DA00F6861E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016738D315C014DA00F6861E /* CoreGraphics.framework */; };
@@ -14,23 +16,40 @@
 		016738DC15C014DA00F6861E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 016738DB15C014DA00F6861E /* main.m */; };
 		016738E015C014DA00F6861E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 016738DF15C014DA00F6861E /* AppDelegate.m */; };
 		016738E315C014DA00F6861E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016738E115C014DA00F6861E /* MainStoryboard.storyboard */; };
-		016738E615C014DA00F6861E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016738E515C014DA00F6861E /* ViewController.m */; };
+		017E00E715C4916400AF7625 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 017E00E615C4916400AF7625 /* 1.jpeg */; };
+		019D53FB15C1FC380088C47E /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 019D53F515C1FC380088C47E /* 2.jpeg */; };
+		019D53FC15C1FC380088C47E /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 019D53F615C1FC380088C47E /* 3.jpeg */; };
+		019D53FD15C1FC380088C47E /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 019D53F715C1FC380088C47E /* 4.jpeg */; };
+		019D53FE15C1FC380088C47E /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 019D53F815C1FC380088C47E /* 5.jpeg */; };
+		019D53FF15C1FC380088C47E /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 019D53F915C1FC380088C47E /* 6.jpeg */; };
+		019D540315C1FC490088C47E /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 019D540115C1FC490088C47E /* 7.jpeg */; };
+		019D540415C1FC490088C47E /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 019D540215C1FC490088C47E /* 8.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010E09F215C222F000671511 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		010E09F315C222F000671511 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		011AEC3415C192A200F7F45A /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		011AEC3515C192A200F7F45A /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		016738CB15C014D900F6861E /* CustomCellTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCellTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016738CF15C014DA00F6861E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		016738D115C014DA00F6861E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		016738D315C014DA00F6861E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		016738D715C014DA00F6861E /* CustomCellTutorial-Info.plist */ = {isa = PBXFileReference; path = "CustomCellTutorial-Info.plist"; sourceTree = "<group>"; };
+		016738D715C014DA00F6861E /* CustomCellTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCellTutorial-Info.plist"; sourceTree = "<group>"; };
 		016738D915C014DA00F6861E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		016738DB15C014DA00F6861E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		016738DD15C014DA00F6861E /* CustomCellTutorial-Prefix.pch */ = {isa = PBXFileReference; path = "CustomCellTutorial-Prefix.pch"; sourceTree = "<group>"; };
-		016738DE15C014DA00F6861E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		016738DD15C014DA00F6861E /* CustomCellTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomCellTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		016738DE15C014DA00F6861E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		016738DF15C014DA00F6861E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		016738E215C014DA00F6861E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		016738E415C014DA00F6861E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		016738E515C014DA00F6861E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		017E00E615C4916400AF7625 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		019D53F515C1FC380088C47E /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		019D53F615C1FC380088C47E /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		019D53F715C1FC380088C47E /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		019D53F815C1FC380088C47E /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		019D53F915C1FC380088C47E /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		019D540115C1FC490088C47E /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		019D540215C1FC490088C47E /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +96,21 @@
 		016738D515C014DA00F6861E /* CustomCellTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				017E00E615C4916400AF7625 /* 1.jpeg */,
+				019D53F515C1FC380088C47E /* 2.jpeg */,
+				019D53F615C1FC380088C47E /* 3.jpeg */,
+				019D53F715C1FC380088C47E /* 4.jpeg */,
+				019D53F815C1FC380088C47E /* 5.jpeg */,
+				019D53F915C1FC380088C47E /* 6.jpeg */,
+				019D540115C1FC490088C47E /* 7.jpeg */,
+				019D540215C1FC490088C47E /* 8.jpeg */,
 				016738DE15C014DA00F6861E /* AppDelegate.h */,
 				016738DF15C014DA00F6861E /* AppDelegate.m */,
 				016738E115C014DA00F6861E /* MainStoryboard.storyboard */,
-				016738E415C014DA00F6861E /* ViewController.h */,
-				016738E515C014DA00F6861E /* ViewController.m */,
+				010E09F215C222F000671511 /* TableViewController.h */,
+				010E09F315C222F000671511 /* TableViewController.m */,
+				011AEC3415C192A200F7F45A /* CustomCell.h */,
+				011AEC3515C192A200F7F45A /* CustomCell.m */,
 				016738D615C014DA00F6861E /* Supporting Files */,
 			);
 			path = CustomCellTutorial;
@@ -151,6 +180,14 @@
 			files = (
 				016738DA15C014DA00F6861E /* InfoPlist.strings in Resources */,
 				016738E315C014DA00F6861E /* MainStoryboard.storyboard in Resources */,
+				019D53FB15C1FC380088C47E /* 2.jpeg in Resources */,
+				019D53FC15C1FC380088C47E /* 3.jpeg in Resources */,
+				019D53FD15C1FC380088C47E /* 4.jpeg in Resources */,
+				019D53FE15C1FC380088C47E /* 5.jpeg in Resources */,
+				019D53FF15C1FC380088C47E /* 6.jpeg in Resources */,
+				019D540315C1FC490088C47E /* 7.jpeg in Resources */,
+				019D540415C1FC490088C47E /* 8.jpeg in Resources */,
+				017E00E715C4916400AF7625 /* 1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +200,8 @@
 			files = (
 				016738DC15C014DA00F6861E /* main.m in Sources */,
 				016738E015C014DA00F6861E /* AppDelegate.m in Sources */,
-				016738E615C014DA00F6861E /* ViewController.m in Sources */,
+				011AEC3615C192A200F7F45A /* CustomCell.m in Sources */,
+				010E09F415C222F000671511 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +315,7 @@
 				016738EB15C014DA00F6861E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
